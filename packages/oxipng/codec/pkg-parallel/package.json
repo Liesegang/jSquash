@@ -1,7 +1,8 @@
 {
-  "name": "squoosh-oxipng",
+  "name": "squoosh-oxipng-patched",
   "collaborators": [
-    "Ingvar Stepanyan <me@rreverser.com>"
+    "Ingvar Stepanyan <me@rreverser.com>",
+    "liesegang <yyama0704@gmail.com>"
   ],
   "version": "0.1.0",
   "files": [

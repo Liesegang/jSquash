@@ -19,7 +19,7 @@
 // side ever in the future, but works well with bundlers today. The whole
 // point of this crate, after all, is to abstract away unstable features
 // and temporary bugs so that you don't need to deal with them in your code.
-import initWbg, { wbg_rayon_start_worker } from '../../../';
+import initWbg, { wbg_rayon_start_worker } from '../../../squoosh_oxipng';
 
 onmessage = async ({ data: { module, memory, receiver } }) => {
   await initWbg(module, memory);
